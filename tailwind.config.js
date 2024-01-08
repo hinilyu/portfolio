@@ -3,12 +3,6 @@ module.exports = {
   darkMode: "class",
   content: ["./pages/**/*.{js,ts,jsx,tsx,mdx}", "./components/**/*.{js,ts,jsx,tsx,mdx}", "./app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
-    colors: {
-      bgwhite: "#f5f5f5",
-      bgdark: "#1f2024",
-      frwhite: "#1f2024",
-      frdark: "#dcdcdc",
-    },
     extend: {
       fontFamily: {
         sans: [
