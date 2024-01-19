@@ -19,20 +19,22 @@ const About = () => {
               <Link href="/projects" className="font-bold">
                 useful apps
               </Link>{" "}
-              for my friends and family. My educational background includes bachelor's degree in communication & media and a diploma in software
-              engineering, providing me with a unique blend of technical expertise and creativity.
+              for my friends and family in my free time. My educational background includes bachelor's degree in communication & media and a diploma
+              in software engineering, providing me with a unique blend of technical expertise and creativity.
             </div>
             <br />
             <div>Beyond coding, I am also a freelance video editor, photographer and graphic designer.</div>
             <br />
             <div>Outside of work, you will find me enjoying snowboarding, swimming and meeting new people.</div>
           </div>
-          <div className="text-left flex flex-col items-center mt-10">
+          <div className="text-left flex flex-col items-center mt-10 mb-20">
             <div>
               <h1 className="text-xl font-semibold mb-2 flex-1">Skills</h1>
-              <div className="mb-1 flex flex-wrap">
+              <div className="mb-1 flex flex-wrap opacity-90">
                 <span className="mr-2 mb-2 px-2 py-1 text-xs font-medium text-white bg-yellow-500">JavaScript</span>
+                <span className="mr-2 mb-2 px-2 py-1 text-xs font-medium text-white bg-indigo-500">TypeScript</span>
                 <span className="mr-2 mb-2 px-2 py-1 text-xs font-medium text-white bg-blue-500">Python</span>
+                <span className="mr-2 mb-2 px-2 py-1 text-xs font-medium text-white bg-pink-500">Swift</span>
                 <span className="mr-2 mb-2 px-2 py-1 text-xs font-medium text-white bg-teal-500">Java</span>
                 <span className="mr-2 mb-2 px-2 py-1 text-xs font-medium text-white bg-sky-500">C#</span>
 

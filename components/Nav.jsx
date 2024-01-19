@@ -14,7 +14,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 const Nav = () => {
   const { theme, setTheme } = useTheme();
   const [toggleDropdown, setToggleDropdown] = useState(false);
-  const path = usePathname();
+  const path = usePathname().split("/")[1];
 
   return (
     <nav className="flex top-0 justify-between w-full mb-4 pt-5">
@@ -22,7 +22,7 @@ const Nav = () => {
         <Link href={"/"} className="mr-3 sm:mr-5 inline-flex" title="Home">
           <HomeIcon className="" />
         </Link>
-        {path === "/about" ? (
+        {path === "about" ? (
           <Link href="/about" className="mr-3 sm:mr-5 border border-slate-600 dark:border-white px-1 hover:underline" title="About">
             About
           </Link>
@@ -31,7 +31,7 @@ const Nav = () => {
             About
           </Link>
         )}
-        {path === "/projects" ? (
+        {path === "projects" ? (
           <Link href="/projects" className="mr-3 sm:mr-5 px-1 border border-slate-600 dark:border-white hover:underline" title="Projects">
             Projects
           </Link>
@@ -46,7 +46,7 @@ const Nav = () => {
       </div>
       <div>
         <button title="Light Mode" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
-          <LightModeIcon className="mr-5" />
+          <LightModeIcon className="" />
         </button>
       </div>
     </nav>

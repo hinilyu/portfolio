@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="content">
       <div className="text-left">
-        <button className="border-2 border-black dark:border-white p-0.5 text-2xl hover:underline">Daniel Tse</button>
+        <button className="border-2 border-black dark:border-white py-0.5 px-1 text-2xl hover:underline">Daniel Tse</button>
         <h1 className="">a software engineer.</h1>
         <Link href={"https://recreation-toronto.vercel.app/"}>
           <button className="hover:underline mt-10 text-2xl text-left p-0.5 bg-orange-200 dark:bg-orange-900">Recreation Toronto</button>
