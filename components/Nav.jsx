@@ -40,7 +40,11 @@ const Nav = () => {
             Projects
           </Link>
         )}
-        <Link href="/Daniel-Tse-Resume-FullStackDeveloper.pdf" className="mr-3 sm:mr-5 px-1 hover:underline" title="Download Resume">
+        <Link
+          href="https://docs.google.com/document/d/1dF5oa6ZjVQrPY8j5PObJKe65XZTeE37T/edit?usp=sharing&ouid=117622580985700957513&rtpof=true&sd=true"
+          className="mr-3 sm:mr-5 px-1 hover:underline"
+          title="Download Resume"
+        >
           Resume
         </Link>
       </div>
